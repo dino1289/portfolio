@@ -132,10 +132,10 @@ export default function Home() {
             </p>
             <p>
               My Passion is learning languages and cultures. I can speak Korean,
-              English, Japanese, and German. Official certificates can be found
-              below. English(C1) and Japanese(C1) and German(B1 on the way to
-              C1).
+              English, Japanese, and German. I am bringing my German level to
+              business by speaking in German during daily business.
             </p>
+
             <div className="flex flex-wrap justify-center gap-3">
               {credentials.map((cred) =>
                 cred.link ? (
@@ -173,8 +173,11 @@ export default function Home() {
             </p>
 
             <p>
-              Problem: aging population
-              {">"} eye sight problem of farmers.
+              Problem: Japan’s agricultural workforce is rapidly aging, with
+              nearly 60% of farmers over the age of 65. As many farmers enter an
+              age group where eyesight, reaction speed, and physical stamina
+              naturally decline, it becomes increasingly difficult to closely
+              monitor crops and detect issues such as disease or damage in time.
             </p>
 
             <p>
@@ -183,16 +186,31 @@ export default function Home() {
               the risk of wasabi crop failure.
             </p>
 
-            <p>
-              before graduation: I teamed up with 6 other teammates to develop a
-              mobile application for a startup in Seoul, Korea.
-            </p>
+            <div className="mt-3 flex items-center gap-4">
+              <a
+                href="https://docs.google.com/document/d/1-AWNX-UgqNro4LMG2SynaI-PMgRPmYm4/edit?usp=sharing&ouid=116813093996339607329&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-4 py-2 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
+              >
+                View thesis (EN)
+              </a>
+              <span className="text-xs text-zinc-500">
+                Tech Stack: Kotlin(Compose Multiplatform) Firebase{" "}
+              </span>
+            </div>
 
             <p>
+              Mobile App "Peoples" - teamed up with 6 other teammates to develop
+              a mobile application for a startup in Seoul, Korea.
+            </p>
+
+            <p className="mt-3">
               Roles were: Frontend Developer(4, 2 on Ios and 2 on Android),
               Backend Developer(1), and UI/UX Designer(1), Product Manager(1) My
               Role: Frontend Developer(Android)
             </p>
+
             <p>
               Problem: Currently, there was no ground for linking students to
               gather up and share their knowledge regarding job interview
@@ -206,17 +224,34 @@ export default function Home() {
               motivate them to study together consistently.
             </p>
 
+            <div className="mt-3 flex items-center gap-4">
+              <a
+                href="https://mountain-bovid-6db.notion.site/Do-you-still-manage-study-sessions-with-Excel-Peoples-is-here-to-help-8617df571a654fd0b213ad7a05ce19f3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-4 py-2 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
+              >
+                Project Description
+              </a>
+
+              <span className="text-xs text-zinc-500">
+                Tech Stack: Kotlin(Compose Multiplatform) Firebase{" "}
+              </span>
+            </div>
+
             <p>
-              Side Project: developed a website for Korean Learning Students
-              where they can post questions and answers regarding Korean
-              language and culture. On top of that, they learn with the help of
-              AI quiz generator.
+              Language Learning Support Platform: developed a website for Korean
+              Learning Students where they can post questions and answers
+              regarding Korean language and culture. On top of that, they learn
+              with the help of AI quiz generator.
             </p>
+
             <p>
               Problem: Reddit/Korean or other big community websites are
               friendly for posting questions and answers, but not for learning
               what they discussed.
             </p>
+
             <p>
               Solution: develop a website where they can post questions and
               answers regarding Korean language and culture. Tech Stack:
@@ -224,6 +259,52 @@ export default function Home() {
               deployment) On top of that, they learn with the help of AI quiz
               generator.
             </p>
+
+            <div className="mt-3 flex items-center gap-4">
+              <a
+                href="https://rollooverflow.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-4 py-2 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
+              >
+                Korean Language Learning Platform
+              </a>
+              <span className="text-xs text-zinc-500">
+                Tech Stack: Kotlin(Compose Multiplatform) Firebase{" "}
+              </span>
+            </div>
+
+            <p>
+              Drop Shipping between Germany and Korea: developed mobile apps on
+              both platform for customers in Korea where they can browse unique
+              popular products from Germany and easy to track the shipping
+              status.
+            </p>
+            <p>
+              Problem: drop shipping on major Ecommerce platforms like Coupang
+              or Naver Shopping incurs lots of seller fees and non-transparent
+              shipping status if products are delivered from foreign countries.
+            </p>
+            <p>
+              Solution: develop mobile apps that can be easily shoppable with
+              minimum amount of personal info(including PCCC orPersonal Customs
+              Clearance Code)and trackable at any time and place.
+            </p>
+
+            <div className="mt-3 flex items-center gap-4">
+              <a
+                href="https://rollooverflow.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-4 py-2 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
+              >
+                Project Description
+              </a>
+
+              <span className="text-xs text-zinc-500">
+                Tech Stack: Kotlin(Compose Multiplatform) Firebase{" "}
+              </span>
+            </div>
           </div>
         </section>
 
