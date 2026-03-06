@@ -1,0 +1,82 @@
+type Project = {
+  title: string;
+  overview: string;
+  problem: string;
+  solution: string;
+  link?: string;
+  linkLabel?: string;
+  tech: string;
+};
+
+export const projects: Project[] = [
+  {
+    title: "Wasabi Farming Management App (Bachelor Thesis)",
+    overview:
+      "Developed a mobile application for wasabi farmers in Shizuoka, Japan to help monitor cultivation and harvest.",
+
+    problem:
+      "Japan’s agricultural workforce is rapidly aging, with nearly 60% of farmers over the age of 65. As eyesight, reaction speed, and physical stamina decline, it becomes increasingly difficult to monitor crops closely and detect disease in time.",
+
+    solution:
+      "Developed a mobile application that allows farmers to monitor their crops and identify sick wasabi leaves earlier, helping prevent waste and reduce the risk of crop failure.",
+
+    link: "https://docs.google.com/document/d/1-AWNX-UgqNro4LMG2SynaI-PMgRPmYm4/edit",
+    linkLabel: "View Thesis (EN)",
+
+    tech: "Kotlin (Compose Multiplatform) · Firebase",
+  },
+
+  {
+    title: "Peoples — Study Community App",
+
+    overview:
+      "Teamed up with six members to develop a mobile application for a startup in Seoul that connects students who want to study together.",
+
+    problem:
+      "Students often struggle to find consistent study partners or communities for job interview preparation, tech meetups, language learning, and 'mogakko' (independent group coding sessions).",
+
+    solution:
+      "Developed a mobile platform where students can organize study sessions, check in to meetings in real time, track attendance, and stay motivated through group learning.",
+
+    link: "https://mountain-bovid-6db.notion.site/Do-you-still-manage-study-sessions-with-Excel-Peoples-is-here-to-help-8617df571a654fd0b213ad7a05ce19f3",
+    linkLabel: "Project Description",
+
+    tech: "Kotlin · Firebase",
+  },
+
+  {
+    title: "Korean Language Learning Platform",
+
+    overview:
+      "Developed an online learning platform where Korean language learners can ask questions and share knowledge about Korean language and culture.",
+
+    problem:
+      "Large communities such as Reddit allow discussions but are not optimized for structured learning or reviewing previously discussed topics.",
+
+    solution:
+      "Created a platform where discussions become organized learning resources. An integrated AI quiz generator helps learners reinforce knowledge based on community discussions.",
+
+    link: "https://rollooverflow.com",
+    linkLabel: "Visit Platform",
+
+    tech: "Next.js · Tailwind · Shadcn UI · Firebase · Claude API · Vercel",
+  },
+
+  {
+    title: "Germany–Korea Cross-Border Shopping App",
+
+    overview:
+      "Developed mobile apps enabling Korean customers to browse and purchase popular products from Germany.",
+
+    problem:
+      "Major marketplaces such as Coupang or Naver Shopping charge high seller fees and often provide limited transparency for international shipping.",
+
+    solution:
+      "Built a mobile platform allowing customers to shop curated German products with simplified customs information and transparent real-time shipping tracking.",
+
+    link: "https://rollooverflow.com",
+    linkLabel: "Project Description",
+
+    tech: "Kotlin (Compose Multiplatform) · Firebase",
+  },
+];
