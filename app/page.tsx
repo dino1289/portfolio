@@ -6,7 +6,7 @@ export default function Home() {
       <header className="fixed inset-x-0 top-0 z-20 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
           <div className="text-sm font-semibold tracking-[0.2em] uppercase text-zinc-200">
-            Junseok Choi from Seoul, Korea
+            Junseok Choi from Seoul, Korea 🇰🇷
           </div>
           <nav className="flex gap-6 text-sm text-zinc-400">
             <a href="#about" className="hover:text-zinc-50">
