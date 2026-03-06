@@ -1,6 +1,6 @@
 "use client";
 
-import Hero from "./_components/hero";
+import Title from "./_components/title";
 import About from "./_components/about";
 import Projects from "./_components/projects";
 import Contact from "./_components/contact";
@@ -15,7 +15,7 @@ export default function Home() {
       {/* Content */}
       <main className="mx-auto max-w-5xl px-4 pt-24 pb-16 space-y-24">
         {/* Hero */}
-        <Hero />
+        <Title />
 
         {/* About */}
         <About />
