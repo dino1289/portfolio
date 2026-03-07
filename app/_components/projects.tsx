@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { projects } from "../contents/projects";
+import { Github } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -36,16 +37,26 @@ export default function Projects() {
                     href={project.demoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex px-4 py-2 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
+                    className="inline-flex items-center h-10 px-4 border rounded-lg hover:bg-blue-50 transition text-sm font-medium"
                   >
                     {project.demoLinkLabel}
                   </a>
                 )}
 
-                <span className="text-xs text-zinc-500">
-                  Tech Stack: {project.tech}
-                </span>
+                {project.githubRepoLink && (
+                  <a
+                    href={project.githubRepoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center h-10 w-10 border rounded-lg hover:bg-blue-50 transition"
+                  >
+                    <Github size={18} />
+                  </a>
+                )}
               </div>
+              <span className="text-xs text-zinc-500">
+                Tech Stack: {project.tech}
+              </span>
             </div>
 
             {/* RIGHT SIDE IMAGES */}

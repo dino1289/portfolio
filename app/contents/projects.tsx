@@ -40,6 +40,13 @@ export const projects: Project[] = [
       "/wasabi7.png",
       "/wasabi8.png",
       "/wasabi9.png",
+      "/wasabi10.jpg",
+      "/wasabi11.jpg",
+      "/wasabi12.jpg",
+      "/wasabi13.jpg",
+      "/wasabi14.jpg",
+      "/wasabi15.jpg",
+      "/wasabi16.jpg",
     ],
   },
 
@@ -58,6 +65,7 @@ export const projects: Project[] = [
     demoLink:
       "https://mountain-bovid-6db.notion.site/Do-you-still-manage-study-sessions-with-Excel-Peoples-is-here-to-help-8617df571a654fd0b213ad7a05ce19f3",
     demoLinkLabel: "Project Description",
+    githubRepoLink: "https://github.com/dino1289/PeoplesNew",
 
     tech: "Kotlin · Java · Springboot · Compose",
     images: ["/peoples1.png", "/peoples2.png", "/peoples3.png"],
@@ -77,9 +85,10 @@ export const projects: Project[] = [
 
     demoLink: "https://rollooverflow.com",
     demoLinkLabel: "Visit Platform",
+    githubRepoLink: "https://github.com/dino1289/rolloblog",
 
     tech: "Next.js · Tailwind · Shadcn UI · Firebase · Claude API · Vercel · Google Analytics",
-    images: ["/rollo1.png", "/rollo2.png", "/rollo3.png"],
+    images: ["/rollo1.png", "/rollo2.jpg", "/rollo3.jpg"],
   },
 
   {
@@ -96,6 +105,7 @@ export const projects: Project[] = [
 
     demoLink: "https://rollooverflow.com",
     demoLinkLabel: "Project Description",
+    githubRepoLink: "https://github.com/dino1289/desalary",
 
     tech: "Kotlin (Compose Multiplatform) · Firebase · SwiftUI",
     images: ["/peoples1.png", "/peoples2.png", "/peoples3.png"],
