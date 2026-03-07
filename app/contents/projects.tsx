@@ -3,9 +3,11 @@ type Project = {
   overview: string;
   problem: string;
   solution: string;
-  link?: string;
-  linkLabel?: string;
+  demoLink?: string;
+  demoLinkLabel?: string;
+  githubRepoLink?: string;
   tech: string;
+  images: string[];
 };
 
 export const projects: Project[] = [
@@ -20,10 +22,25 @@ export const projects: Project[] = [
     solution:
       "Developed a mobile application that allows farmers to monitor their crops and identify sick wasabi leaves earlier, helping prevent waste and reduce the risk of crop failure.",
 
-    link: "https://docs.google.com/document/d/1-AWNX-UgqNro4LMG2SynaI-PMgRPmYm4/edit",
-    linkLabel: "View Thesis (EN)",
+    demoLink:
+      "https://docs.google.com/document/d/1-AWNX-UgqNro4LMG2SynaI-PMgRPmYm4/edit",
+    demoLinkLabel: "View Thesis (EN)",
 
-    tech: "Kotlin (Compose Multiplatform) · Firebase",
+    githubRepoLink: "",
+
+    tech: "Google Colab · Python · Java · LLM · Android ",
+    images: [
+      "/wasabiprocess.png",
+      "/wasabi1.png",
+      "/wasabi2.png",
+      "/wasabi3.png",
+      "/wasabi4.png",
+      "/wasabi5.png",
+      "/wasabi6.png",
+      "/wasabi7.png",
+      "/wasabi8.png",
+      "/wasabi9.png",
+    ],
   },
 
   {
@@ -38,10 +55,12 @@ export const projects: Project[] = [
     solution:
       "Developed a mobile platform where students can organize study sessions, check in to meetings in real time, track attendance, and stay motivated through group learning.",
 
-    link: "https://mountain-bovid-6db.notion.site/Do-you-still-manage-study-sessions-with-Excel-Peoples-is-here-to-help-8617df571a654fd0b213ad7a05ce19f3",
-    linkLabel: "Project Description",
+    demoLink:
+      "https://mountain-bovid-6db.notion.site/Do-you-still-manage-study-sessions-with-Excel-Peoples-is-here-to-help-8617df571a654fd0b213ad7a05ce19f3",
+    demoLinkLabel: "Project Description",
 
-    tech: "Kotlin · Firebase",
+    tech: "Kotlin · Java · Springboot · Compose",
+    images: ["/peoples1.png", "/peoples2.png", "/peoples3.png"],
   },
 
   {
@@ -56,10 +75,11 @@ export const projects: Project[] = [
     solution:
       "Created a platform where discussions become organized learning resources. An integrated AI quiz generator helps learners reinforce knowledge based on community discussions.",
 
-    link: "https://rollooverflow.com",
-    linkLabel: "Visit Platform",
+    demoLink: "https://rollooverflow.com",
+    demoLinkLabel: "Visit Platform",
 
-    tech: "Next.js · Tailwind · Shadcn UI · Firebase · Claude API · Vercel",
+    tech: "Next.js · Tailwind · Shadcn UI · Firebase · Claude API · Vercel · Google Analytics",
+    images: ["/rollo1.png", "/rollo2.png", "/rollo3.png"],
   },
 
   {
@@ -74,9 +94,10 @@ export const projects: Project[] = [
     solution:
       "Built a mobile platform allowing customers to shop curated German products with simplified customs information and transparent real-time shipping tracking.",
 
-    link: "https://rollooverflow.com",
-    linkLabel: "Project Description",
+    demoLink: "https://rollooverflow.com",
+    demoLinkLabel: "Project Description",
 
-    tech: "Kotlin (Compose Multiplatform) · Firebase",
+    tech: "Kotlin (Compose Multiplatform) · Firebase · SwiftUI",
+    images: ["/peoples1.png", "/peoples2.png", "/peoples3.png"],
   },
 ];

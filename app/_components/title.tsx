@@ -5,6 +5,7 @@ export default function Title() {
     <section className="pt-8 flex items-center justify-between gap-12">
       {/* LEFT SIDE - TEXT */}
       <div>
+        <p className="text-sm font-medium text-cyan-400">About Me</p>
         <h1 className="mt-4 max-w-xl text-4xl font-semibold tracking-tight text-zinc-50">
           Hello, I&apos;m Junseok!
         </h1>
